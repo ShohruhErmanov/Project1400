@@ -1,4 +1,4 @@
-*{
+main__contentmain__content*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -44,7 +44,7 @@ header{
 }
 
 main{
-    background: yellow;
+    background: blue;
     height: 100%;
     padding: 100px 0;
 }
