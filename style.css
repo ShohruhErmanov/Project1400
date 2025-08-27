@@ -41,6 +41,11 @@ header{
 
 .link{
     color: white;
+    transition: .5s;
+}
+
+.link:hover{
+    color: red;
 }
 
 main{
@@ -54,4 +59,14 @@ main{
     flex-direction: column;
     align-items: center;
     /* margin-top: 100px; */
+}
+
+.main__title{
+    
+    transition: .5s;
+}
+
+.main__content:hover .main__title{
+    color: white;
+    transform: scale(1.2) translateY(20px);
 }
